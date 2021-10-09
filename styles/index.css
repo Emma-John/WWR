@@ -37,7 +37,7 @@ header{
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: black;
     color: #90E0EF
 }
 
@@ -48,7 +48,7 @@ nav a:hover {
 }
 .book:hover, .join:hover{
     background-color: #90E0EF;
-    color: #90E0EF;
+    color: black;
 }
 
 #background{
@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .msg h2, p{
-    color:#55d3fd;
+    color:#042a5c;
 }
 
 footer{
