@@ -33,7 +33,7 @@ body{
 }
 
 header{
-    background-color:#042A5C;
+    background-color:#90E0EF;
 }
 
 nav a:hover {
@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 footer{
-    background-color: #CAF0F8;
+    background-color: #042a5c;
 }
 footer a{
     color:#90E0EF;
@@ -90,9 +90,11 @@ h4{
 
 #hero-img{
     width: 100%;
+    height: auto;
 }
 
 .social{
     width: 5px;
+    height:auto;
 }
 
