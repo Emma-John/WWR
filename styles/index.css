@@ -29,7 +29,7 @@ main section{
 /*colors*/
 
 body{
-    background-color: #0096C7;
+    background-color: white;
 }
 
 header{
@@ -93,5 +93,6 @@ h4{
 }
 
 .social{
-    width:25%;
+    width: 5px;
 }
+
