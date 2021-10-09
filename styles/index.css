@@ -7,7 +7,7 @@
 
 nav a{
     text-align: center;
-    color:#042a5c;
+    color:#021022;
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .msg h2, p{
-    color:#0096C7;
+    color:#55d3fd;
 }
 
 footer{
@@ -92,7 +92,6 @@ h4{
     width: 100%;
 }
 
-.social image {
+.social{
     width:25%;
 }
-
