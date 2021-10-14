@@ -8,6 +8,7 @@ nav a{
     text-align: center;
     color:#021022;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1,#hero-box h4{
@@ -21,6 +22,10 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box
+}
+
 #background{
     height: 725px;
 }
@@ -29,6 +34,9 @@ main section{
 
 body{
     background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -44,6 +52,10 @@ nav a:hover {
     background-color:#90E0EF;
     color:#0096C7;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #90E0EF;
@@ -56,14 +68,25 @@ nav a:hover {
 
 .msg{
     background-color:aliceblue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-.msg h2, p{
+.msg p{
+    color:#CAF0F8;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.msg h2{
     color:#042a5c;
+    font-family: 'Abril Fatface', sans-serif;
 }
 
 footer{
     background-color: #042a5c;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color:#90E0EF;
@@ -75,11 +98,15 @@ footer h3, a:hover{
 }
 
 footer img{
-    width:30px
+    width:30px;
+    padding-top: 15px;
 }
 
 .home-title{
-    color: #0096C7;
+    color: #030303;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -89,6 +116,10 @@ h4{
 
 .logo, .icon{
     width:80px;
+}
+
+.icon{
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -101,3 +132,19 @@ h4{
     height:auto;
 }
 
+h2{
+    margin: 0;
+}
+
+.logo{
+    padding-top: 5px;
+}
+
+.extreme, .challenge, .adventure{
+    margin: 200px 0;
+}
+
+.real_img{
+    border: 5px solid black;
+    width: 300px;
+}
